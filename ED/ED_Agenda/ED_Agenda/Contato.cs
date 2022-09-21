@@ -74,12 +74,22 @@ namespace ED_Agenda
             string principal = GetTelefonePrincipal();
             string tels = "";
             int idade = GetIdade();
+            int k = 0;
 
             foreach (Telefone tel in Telefones)
             {
-                if (tel.Principal.Equals(false))
+
+                if (tel.Principal.Equals(false) == true)
                 {
-                    tels += tel.Numero;
+                    k++;
+                    if (k == 1)
+                    {
+                        tels += tel.Numero;
+                    } else
+                    {
+                        tels += ", " + tel.Numero;
+                    }
+                    
                 }
             }
 

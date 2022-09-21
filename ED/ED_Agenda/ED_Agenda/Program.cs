@@ -43,7 +43,7 @@ namespace ED_Agenda
                         int ano = int.Parse(Console.ReadLine());
 
                         List<Telefone> telefones = new List<Telefone>();
-                        bool addTel;
+                        bool addTel, temPrincipal = false, principal;
 
                         Console.Write("\nTelefones: ");
                         do
@@ -52,8 +52,16 @@ namespace ED_Agenda
                             string tipo = Console.ReadLine();
                             Console.Write("Número do telefone: ");
                             string numTel = Console.ReadLine();
-                            Console.Write("É o telefone principal? (s/n): ");
-                            bool principal = Console.ReadLine() == "s";
+                            if(temPrincipal == false)
+                            {
+                                Console.Write("É o telefone principal? (s/n): ");
+                                principal = Console.ReadLine() == "s";
+                                if (principal == true) temPrincipal = true;
+                            } else
+                            {
+                                principal = false;
+                                Console.Write("O contato já possui um telefone principal\n");
+                            }
                             Console.Write("O contato possui outros telefones? (s/n): ");
                             addTel = Console.ReadLine() == "s";
            
@@ -89,7 +97,7 @@ namespace ED_Agenda
                         Contato alteraContato = new Contato(emailPesquisaAltera);
                         alteraContato = agenda.Pesquisar(alteraContato);
 
-                        alteraContato.ToString();
+                        Console.WriteLine(alteraContato.ToString());
 
                         if (alteraContato.Email != "-1")
                         {
@@ -134,18 +142,59 @@ namespace ED_Agenda
                                     string tipoAddAltera = Console.ReadLine();
                                     Console.Write("Número do telefone: ");
                                     string numTelAddAltera = Console.ReadLine();
-                                    Console.Write("É o telefone principal? (s/n): ");
-                                    bool principalAddAltera = Console.ReadLine() == "s";
-                                    
+
+                                    bool temNumPrincipal = false, principalAddAltera;
+                                    string numPrincipal = alteraContato.GetTelefonePrincipal();
+                                    foreach(Telefone telContato in alteraContato.Telefones)
+                                    {
+                                        if (telContato.Principal.Equals(true))
+                                        {
+                                            if (Equals(telContato.Numero, numPrincipal))
+                                            {
+                                                temNumPrincipal = true;
+                                                break;
+                                            }
+                                        }
+                                    }
+
+                                    if(temNumPrincipal == false)
+                                    {
+                                        Console.Write("É o telefone principal? (s/n): ");
+                                        principalAddAltera = Console.ReadLine() == "s";
+                                        if (principalAddAltera == true) temNumPrincipal = true;
+                                    }
+                                    else
+                                    {
+                                        principalAddAltera = false;
+                                        Console.Write("O contato já possui um telefone principal\n");
+                                    }
 
                                     Telefone telAltera = new Telefone(tipoAddAltera, numTelAddAltera, principalAddAltera);
                                     alteraContato.AdicionarTelefone(telAltera);
+
+                                    bool verificaAddTel = false;
+                                    foreach(Telefone t in alteraContato.Telefones)
+                                    {
+                                        if (Equals(t.Numero, numTelAddAltera))
+                                        {
+                                            verificaAddTel = true;
+                                            break;
+                                        }
+                                    }
+                                    
+                                    if(verificaAddTel == true)
+                                    {
+                                        Console.WriteLine("Adicionado");
+                                    } else
+                                    {
+                                        Console.WriteLine("Não foi possível adicionar o número");
+                                    }
 
                                     break;
                                 case 5:
                                     Console.Write("Os telefones serão apagados. Insira os novos telefones do contato:");
                                     List<Telefone> telefonesAlterado = new List<Telefone>();
-                                    bool addTelAlterado;
+                                    bool addTelAlterado, temPrincipalAlterado = false, principalAddAlterado;
 
                                     Console.Write("\nTelefones: ");
                                     do
@@ -154,12 +203,22 @@ namespace ED_Agenda
                                         string tipo = Console.ReadLine();
                                         Console.Write("Número do telefone: ");
                                         string numTel = Console.ReadLine();
-                                        Console.Write("É o telefone principal? (s/n): ");
-                                        bool principal = Console.ReadLine() == "s";
+
+                                        if (temPrincipalAlterado == false)
+                                        {
+                                            Console.Write("É o telefone principal? (s/n): ");
+                                            principalAddAlterado = Console.ReadLine() == "s";
+                                            if (principalAddAlterado == true) temPrincipalAlterado = true;
+                                        }
+                                        else
+                                        {
+                                            principalAddAlterado = false;
+                                            Console.Write("O contato já possui um telefone principal\n");
+                                        }
                                         Console.Write("O contato possui outros telefones? (s/n): ");
                                         addTelAlterado = Console.ReadLine() == "s";
 
-                                        Telefone addTelefone = new Telefone(tipo, numTel, principal);
+                                        Telefone addTelefone = new Telefone(tipo, numTel, principalAddAlterado);
                                         telefonesAlterado.Add(addTelefone);
                                     } while (addTelAlterado == true);
 
