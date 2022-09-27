@@ -1,0 +1,15 @@
+C:\Users\gabri\Documents\ADS\ED\FormAgend\FormAgend\bin\Debug\netcoreapp3.1\FormAgend.exe
+C:\Users\gabri\Documents\ADS\ED\FormAgend\FormAgend\bin\Debug\netcoreapp3.1\FormAgend.deps.json
+C:\Users\gabri\Documents\ADS\ED\FormAgend\FormAgend\bin\Debug\netcoreapp3.1\FormAgend.runtimeconfig.json
+C:\Users\gabri\Documents\ADS\ED\FormAgend\FormAgend\bin\Debug\netcoreapp3.1\FormAgend.runtimeconfig.dev.json
+C:\Users\gabri\Documents\ADS\ED\FormAgend\FormAgend\bin\Debug\netcoreapp3.1\FormAgend.dll
+C:\Users\gabri\Documents\ADS\ED\FormAgend\FormAgend\bin\Debug\netcoreapp3.1\FormAgend.pdb
+C:\Users\gabri\Documents\ADS\ED\FormAgend\FormAgend\obj\Debug\netcoreapp3.1\FormAgend.csprojAssemblyReference.cache
+C:\Users\gabri\Documents\ADS\ED\FormAgend\FormAgend\obj\Debug\netcoreapp3.1\FormAgend.Agenda.resources
+C:\Users\gabri\Documents\ADS\ED\FormAgend\FormAgend\obj\Debug\netcoreapp3.1\FormAgend.csproj.GenerateResource.cache
+C:\Users\gabri\Documents\ADS\ED\FormAgend\FormAgend\obj\Debug\netcoreapp3.1\FormAgend.AssemblyInfoInputs.cache
+C:\Users\gabri\Documents\ADS\ED\FormAgend\FormAgend\obj\Debug\netcoreapp3.1\FormAgend.AssemblyInfo.cs
+C:\Users\gabri\Documents\ADS\ED\FormAgend\FormAgend\obj\Debug\netcoreapp3.1\FormAgend.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Documents\ADS\ED\FormAgend\FormAgend\obj\Debug\netcoreapp3.1\FormAgend.dll
+C:\Users\gabri\Documents\ADS\ED\FormAgend\FormAgend\obj\Debug\netcoreapp3.1\FormAgend.pdb
+C:\Users\gabri\Documents\ADS\ED\FormAgend\FormAgend\obj\Debug\netcoreapp3.1\FormAgend.genruntimeconfig.cache
