@@ -38,7 +38,6 @@ namespace FormAgend
             {
                 if (contato.Equals(c))
                 {
-
                     aux = contato;
                     return aux;
                 }

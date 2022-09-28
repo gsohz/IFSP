@@ -199,6 +199,7 @@ namespace FormAgend
             this.buttonGravar.TabIndex = 17;
             this.buttonGravar.Text = "GRAVAR";
             this.buttonGravar.UseVisualStyleBackColor = true;
+            this.buttonGravar.Click += new System.EventHandler(this.buttonGravar_Click);
             // 
             // buttonExcluir
             // 
@@ -208,6 +209,7 @@ namespace FormAgend
             this.buttonExcluir.TabIndex = 18;
             this.buttonExcluir.Text = "EXCLUIR";
             this.buttonExcluir.UseVisualStyleBackColor = true;
+            this.buttonExcluir.Click += new System.EventHandler(this.buttonExcluir_Click);
             // 
             // buttonPesquisa
             // 
@@ -217,6 +219,7 @@ namespace FormAgend
             this.buttonPesquisa.TabIndex = 19;
             this.buttonPesquisa.Text = "PESQUISAR";
             this.buttonPesquisa.UseVisualStyleBackColor = true;
+            this.buttonPesquisa.Click += new System.EventHandler(this.buttonPesquisa_Click);
             // 
             // buttonLista
             // 
@@ -226,6 +229,7 @@ namespace FormAgend
             this.buttonLista.TabIndex = 20;
             this.buttonLista.Text = "LISTAR";
             this.buttonLista.UseVisualStyleBackColor = true;
+            this.buttonLista.Click += new System.EventHandler(this.buttonLista_Click);
             // 
             // textBoxReturnTel
             // 

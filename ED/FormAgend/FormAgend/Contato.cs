@@ -48,9 +48,12 @@ namespace FormAgend
             return idade;
         }
 
-        public void AdicionarTelefone(Telefone t)
+        public void AdicionarTelefone(List<Telefone> t)
         {
-            Telefones.Add(t);
+            foreach(Telefone tel in t)
+            {
+                Telefones.Add(tel);
+            }
         }
 
         public string GetTelefonePrincipal()
