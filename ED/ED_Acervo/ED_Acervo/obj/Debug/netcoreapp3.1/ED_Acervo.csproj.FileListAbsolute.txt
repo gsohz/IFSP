@@ -1,0 +1,13 @@
+C:\Users\gabri\source\repos\ED_Acervo\ED_Acervo\obj\Debug\netcoreapp3.1\ED_Acervo.csprojAssemblyReference.cache
+C:\Users\gabri\source\repos\ED_Acervo\ED_Acervo\obj\Debug\netcoreapp3.1\ED_Acervo.AssemblyInfoInputs.cache
+C:\Users\gabri\source\repos\ED_Acervo\ED_Acervo\obj\Debug\netcoreapp3.1\ED_Acervo.AssemblyInfo.cs
+C:\Users\gabri\source\repos\ED_Acervo\ED_Acervo\obj\Debug\netcoreapp3.1\ED_Acervo.csproj.CoreCompileInputs.cache
+C:\Users\gabri\source\repos\ED_Acervo\ED_Acervo\bin\Debug\netcoreapp3.1\ED_Acervo.exe
+C:\Users\gabri\source\repos\ED_Acervo\ED_Acervo\bin\Debug\netcoreapp3.1\ED_Acervo.deps.json
+C:\Users\gabri\source\repos\ED_Acervo\ED_Acervo\bin\Debug\netcoreapp3.1\ED_Acervo.runtimeconfig.json
+C:\Users\gabri\source\repos\ED_Acervo\ED_Acervo\bin\Debug\netcoreapp3.1\ED_Acervo.runtimeconfig.dev.json
+C:\Users\gabri\source\repos\ED_Acervo\ED_Acervo\bin\Debug\netcoreapp3.1\ED_Acervo.dll
+C:\Users\gabri\source\repos\ED_Acervo\ED_Acervo\bin\Debug\netcoreapp3.1\ED_Acervo.pdb
+C:\Users\gabri\source\repos\ED_Acervo\ED_Acervo\obj\Debug\netcoreapp3.1\ED_Acervo.dll
+C:\Users\gabri\source\repos\ED_Acervo\ED_Acervo\obj\Debug\netcoreapp3.1\ED_Acervo.pdb
+C:\Users\gabri\source\repos\ED_Acervo\ED_Acervo\obj\Debug\netcoreapp3.1\ED_Acervo.genruntimeconfig.cache
