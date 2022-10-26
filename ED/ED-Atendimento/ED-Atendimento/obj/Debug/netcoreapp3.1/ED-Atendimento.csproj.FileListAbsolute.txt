@@ -1,0 +1,15 @@
+C:\Users\gabri\Documents\ADS\ED\ED-Atendimento\ED-Atendimento\bin\Debug\netcoreapp3.1\ED-Atendimento.exe
+C:\Users\gabri\Documents\ADS\ED\ED-Atendimento\ED-Atendimento\bin\Debug\netcoreapp3.1\ED-Atendimento.deps.json
+C:\Users\gabri\Documents\ADS\ED\ED-Atendimento\ED-Atendimento\bin\Debug\netcoreapp3.1\ED-Atendimento.runtimeconfig.json
+C:\Users\gabri\Documents\ADS\ED\ED-Atendimento\ED-Atendimento\bin\Debug\netcoreapp3.1\ED-Atendimento.runtimeconfig.dev.json
+C:\Users\gabri\Documents\ADS\ED\ED-Atendimento\ED-Atendimento\bin\Debug\netcoreapp3.1\ED-Atendimento.dll
+C:\Users\gabri\Documents\ADS\ED\ED-Atendimento\ED-Atendimento\bin\Debug\netcoreapp3.1\ED-Atendimento.pdb
+C:\Users\gabri\Documents\ADS\ED\ED-Atendimento\ED-Atendimento\obj\Debug\netcoreapp3.1\ED-Atendimento.csprojAssemblyReference.cache
+C:\Users\gabri\Documents\ADS\ED\ED-Atendimento\ED-Atendimento\obj\Debug\netcoreapp3.1\ED_Atendimento.Form1.resources
+C:\Users\gabri\Documents\ADS\ED\ED-Atendimento\ED-Atendimento\obj\Debug\netcoreapp3.1\ED-Atendimento.csproj.GenerateResource.cache
+C:\Users\gabri\Documents\ADS\ED\ED-Atendimento\ED-Atendimento\obj\Debug\netcoreapp3.1\ED-Atendimento.AssemblyInfoInputs.cache
+C:\Users\gabri\Documents\ADS\ED\ED-Atendimento\ED-Atendimento\obj\Debug\netcoreapp3.1\ED-Atendimento.AssemblyInfo.cs
+C:\Users\gabri\Documents\ADS\ED\ED-Atendimento\ED-Atendimento\obj\Debug\netcoreapp3.1\ED-Atendimento.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Documents\ADS\ED\ED-Atendimento\ED-Atendimento\obj\Debug\netcoreapp3.1\ED-Atendimento.dll
+C:\Users\gabri\Documents\ADS\ED\ED-Atendimento\ED-Atendimento\obj\Debug\netcoreapp3.1\ED-Atendimento.pdb
+C:\Users\gabri\Documents\ADS\ED\ED-Atendimento\ED-Atendimento\obj\Debug\netcoreapp3.1\ED-Atendimento.genruntimeconfig.cache
