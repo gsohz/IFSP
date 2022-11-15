@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ED-Medicamento/1.0.0": {
+        "runtime": {
+          "ED-Medicamento.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ED-Medicamento/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

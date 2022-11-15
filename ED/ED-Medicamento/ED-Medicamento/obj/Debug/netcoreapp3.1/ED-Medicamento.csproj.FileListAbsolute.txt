@@ -1,0 +1,13 @@
+C:\Users\gabri\source\repos\ED-Medicamento\ED-Medicamento\bin\Debug\netcoreapp3.1\ED-Medicamento.exe
+C:\Users\gabri\source\repos\ED-Medicamento\ED-Medicamento\bin\Debug\netcoreapp3.1\ED-Medicamento.deps.json
+C:\Users\gabri\source\repos\ED-Medicamento\ED-Medicamento\bin\Debug\netcoreapp3.1\ED-Medicamento.runtimeconfig.json
+C:\Users\gabri\source\repos\ED-Medicamento\ED-Medicamento\bin\Debug\netcoreapp3.1\ED-Medicamento.runtimeconfig.dev.json
+C:\Users\gabri\source\repos\ED-Medicamento\ED-Medicamento\bin\Debug\netcoreapp3.1\ED-Medicamento.dll
+C:\Users\gabri\source\repos\ED-Medicamento\ED-Medicamento\bin\Debug\netcoreapp3.1\ED-Medicamento.pdb
+C:\Users\gabri\source\repos\ED-Medicamento\ED-Medicamento\obj\Debug\netcoreapp3.1\ED-Medicamento.csprojAssemblyReference.cache
+C:\Users\gabri\source\repos\ED-Medicamento\ED-Medicamento\obj\Debug\netcoreapp3.1\ED-Medicamento.AssemblyInfoInputs.cache
+C:\Users\gabri\source\repos\ED-Medicamento\ED-Medicamento\obj\Debug\netcoreapp3.1\ED-Medicamento.AssemblyInfo.cs
+C:\Users\gabri\source\repos\ED-Medicamento\ED-Medicamento\obj\Debug\netcoreapp3.1\ED-Medicamento.csproj.CoreCompileInputs.cache
+C:\Users\gabri\source\repos\ED-Medicamento\ED-Medicamento\obj\Debug\netcoreapp3.1\ED-Medicamento.dll
+C:\Users\gabri\source\repos\ED-Medicamento\ED-Medicamento\obj\Debug\netcoreapp3.1\ED-Medicamento.pdb
+C:\Users\gabri\source\repos\ED-Medicamento\ED-Medicamento\obj\Debug\netcoreapp3.1\ED-Medicamento.genruntimeconfig.cache
