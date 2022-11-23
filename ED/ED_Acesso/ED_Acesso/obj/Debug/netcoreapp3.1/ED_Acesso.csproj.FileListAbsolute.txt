@@ -1,0 +1,15 @@
+C:\Users\gabri\Documents\ADS\ED\ED_Acesso\ED_Acesso\bin\Debug\netcoreapp3.1\ED_Acesso.exe
+C:\Users\gabri\Documents\ADS\ED\ED_Acesso\ED_Acesso\bin\Debug\netcoreapp3.1\ED_Acesso.deps.json
+C:\Users\gabri\Documents\ADS\ED\ED_Acesso\ED_Acesso\bin\Debug\netcoreapp3.1\ED_Acesso.runtimeconfig.json
+C:\Users\gabri\Documents\ADS\ED\ED_Acesso\ED_Acesso\bin\Debug\netcoreapp3.1\ED_Acesso.runtimeconfig.dev.json
+C:\Users\gabri\Documents\ADS\ED\ED_Acesso\ED_Acesso\bin\Debug\netcoreapp3.1\ED_Acesso.dll
+C:\Users\gabri\Documents\ADS\ED\ED_Acesso\ED_Acesso\bin\Debug\netcoreapp3.1\ED_Acesso.pdb
+C:\Users\gabri\Documents\ADS\ED\ED_Acesso\ED_Acesso\obj\Debug\netcoreapp3.1\ED_Acesso.csprojAssemblyReference.cache
+C:\Users\gabri\Documents\ADS\ED\ED_Acesso\ED_Acesso\obj\Debug\netcoreapp3.1\ED_Acesso.AssemblyInfoInputs.cache
+C:\Users\gabri\Documents\ADS\ED\ED_Acesso\ED_Acesso\obj\Debug\netcoreapp3.1\ED_Acesso.AssemblyInfo.cs
+C:\Users\gabri\Documents\ADS\ED\ED_Acesso\ED_Acesso\obj\Debug\netcoreapp3.1\ED_Acesso.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Documents\ADS\ED\ED_Acesso\ED_Acesso\obj\Debug\netcoreapp3.1\ED_Acesso.dll
+C:\Users\gabri\Documents\ADS\ED\ED_Acesso\ED_Acesso\obj\Debug\netcoreapp3.1\ED_Acesso.pdb
+C:\Users\gabri\Documents\ADS\ED\ED_Acesso\ED_Acesso\obj\Debug\netcoreapp3.1\ED_Acesso.genruntimeconfig.cache
+C:\Users\gabri\Documents\ADS\ED\ED_Acesso\ED_Acesso\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\gabri\Documents\ADS\ED\ED_Acesso\ED_Acesso\obj\Debug\netcoreapp3.1\ED_Acesso.csproj.CopyComplete

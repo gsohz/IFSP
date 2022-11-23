@@ -1,9 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Text.Json;
+using Newtonsoft.Json;
+using System.IO;
+
 
 namespace ED_Acesso
 {
+    [Serializable()]
     class Cadastro
     {
         private List<Usuario> usuarios;
@@ -41,13 +46,13 @@ namespace ED_Acesso
 
         public Usuario pesquisarUsuario(Usuario usuario)
         {
-            Usuario aux = new Usuario();
+            Usuario aux = new Usuario(-1);
 
             foreach (Usuario u in Usuarios)
             {
                 if (u.Equals(usuario))
                 {
-                    aux = usuario;
+                    aux = u;
                     return aux;
                 }
             }
@@ -83,21 +88,25 @@ namespace ED_Acesso
             {
                 if (a.Equals(ambiente))
                 {
-                    aux = ambiente;
+                    aux = a;
                     return aux;
                 }
             }
             return aux;
         }
 
-        /*public void upload()
+        public void upload()
         {
+
+
 
         }
 
         public void download()
         {
 
-        }*/
+
+
+        }
     }
 }
