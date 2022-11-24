@@ -35,7 +35,7 @@ namespace ED_Acesso
 
                 switch (key)
                 {
-                    case 11:
+                    case 0:
                         Console.WriteLine("Finalizando programa... Salvando dados...");
                         cadastro.upload();
                         break;
