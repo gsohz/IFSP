@@ -95,7 +95,7 @@ namespace ED_Transporte
             string listaVeiculos = "";
             foreach (Veiculo v in Veiculos)
             {
-                listaVeiculos += ($"Veículo {v.Placa} - {v.Nome_motorista} - {v.Lotacao}\n");
+                listaVeiculos += ($"Placa: {v.Placa} - Condutor: {v.Nome_motorista} - Lt: {v.Lotacao}\n");
             }
             return listaVeiculos;
         }
@@ -110,12 +110,53 @@ namespace ED_Transporte
             return listaVisitantes;
         }
 
+        public string listaViagensVeiculos(int placa)
+        {
+            Veiculo v = new Veiculo(placa);
+            Veiculo aux = new Veiculo(-1);
+            foreach(Veiculo veiculo in Veiculos)
+            {
+                if (veiculo.Equals(v))
+                {
+                    aux = veiculo;
+                    break;
+                }
+            }
+
+            if (aux.Placa == -1)
+            {
+                return "O veículo não existe";
+            }
+
+
+            string listaViagens = "";
+
+            if(aux.Viagens.Count == 0)
+            {
+                listaViagens = "O veículo ainda não fez viagens";
+                return listaViagens;
+            }
+
+            foreach(Viagem viagem in aux.Viagens)
+            {
+                int qtdVisitantes = 0;
+                foreach(Visitante visitante in viagem.Visitantes)
+                {
+                    qtdVisitantes += 1;
+                }
+
+                listaViagens += $"{viagem.Dt_hora_viagem} - Placa veículo: {viagem.Veiculo.Placa} - Qtd passageiros: {qtdVisitantes}";
+            }
+
+            return listaViagens;
+        } 
+
         public string finalizarJornada()
         {
             string finalizacao = "Jornada finalizada! Ganhos dos veículos:\n";
             foreach(Veiculo v in Veiculos)
             {
-                finalizacao += ($"Veículo {v.Placa} - {v.Nome_motorista}:\tR$ {v.calculaJornada()}\n");
+                finalizacao += $"Veículo {v.Placa} - {v.Nome_motorista}:    R$ {v.calculaJornada()}\n";
             }
             return finalizacao;
         }

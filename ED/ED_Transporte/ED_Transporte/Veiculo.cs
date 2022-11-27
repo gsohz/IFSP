@@ -24,6 +24,11 @@ namespace ED_Transporte
             Placa = -1;
         }
 
+        public Veiculo(int placa)
+        {
+            Placa = placa;
+        }
+
         public Veiculo(int placa, int lotacao, string nome_motorista)
         {
             Placa = placa;

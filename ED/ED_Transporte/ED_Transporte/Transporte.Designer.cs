@@ -46,6 +46,7 @@ namespace ED_Transporte
             this.btnFinalizaJornada = new System.Windows.Forms.Button();
             this.lblConsole = new System.Windows.Forms.Label();
             this.boxConsole = new System.Windows.Forms.TextBox();
+            this.btnVerificaViagens = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblPlaca
@@ -118,9 +119,9 @@ namespace ED_Transporte
             // 
             // btnRegistraVeiculo
             // 
-            this.btnRegistraVeiculo.Location = new System.Drawing.Point(208, 68);
+            this.btnRegistraVeiculo.Location = new System.Drawing.Point(208, 36);
             this.btnRegistraVeiculo.Name = "btnRegistraVeiculo";
-            this.btnRegistraVeiculo.Size = new System.Drawing.Size(106, 63);
+            this.btnRegistraVeiculo.Size = new System.Drawing.Size(143, 42);
             this.btnRegistraVeiculo.TabIndex = 8;
             this.btnRegistraVeiculo.Text = "Registrar Veículo";
             this.btnRegistraVeiculo.UseVisualStyleBackColor = true;
@@ -199,14 +200,25 @@ namespace ED_Transporte
             this.boxConsole.Multiline = true;
             this.boxConsole.Name = "boxConsole";
             this.boxConsole.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.boxConsole.Size = new System.Drawing.Size(318, 86);
+            this.boxConsole.Size = new System.Drawing.Size(522, 86);
             this.boxConsole.TabIndex = 15;
+            // 
+            // btnVerificaViagens
+            // 
+            this.btnVerificaViagens.Location = new System.Drawing.Point(208, 89);
+            this.btnVerificaViagens.Name = "btnVerificaViagens";
+            this.btnVerificaViagens.Size = new System.Drawing.Size(143, 42);
+            this.btnVerificaViagens.TabIndex = 17;
+            this.btnVerificaViagens.Text = "Verificar Viagens";
+            this.btnVerificaViagens.UseVisualStyleBackColor = true;
+            this.btnVerificaViagens.Click += new System.EventHandler(this.btnVerificaViagens_Click);
             // 
             // Transporte
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 459);
+            this.Controls.Add(this.btnVerificaViagens);
             this.Controls.Add(this.lblConsole);
             this.Controls.Add(this.boxConsole);
             this.Controls.Add(this.lblFilaVisitantes);
@@ -250,6 +262,7 @@ namespace ED_Transporte
         private System.Windows.Forms.Button btnFinalizaJornada;
         private System.Windows.Forms.Label lblConsole;
         private System.Windows.Forms.TextBox boxConsole;
+        private System.Windows.Forms.Button btnVerificaViagens;
     }
 }
 

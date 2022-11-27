@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gabri\\source\\repos\\ED_Transporte\\ED_Transporte\\ED_Transporte.csproj",
+      "projectUniqueName": "C:\\Users\\gabri\\Documents\\ADS\\ED\\ED_Transporte\\ED_Transporte\\ED_Transporte.csproj",
       "projectName": "ED_Transporte",
-      "projectPath": "C:\\Users\\gabri\\source\\repos\\ED_Transporte\\ED_Transporte\\ED_Transporte.csproj",
+      "projectPath": "C:\\Users\\gabri\\Documents\\ADS\\ED\\ED_Transporte\\ED_Transporte\\ED_Transporte.csproj",
       "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gabri\\source\\repos\\ED_Transporte\\ED_Transporte\\obj\\",
+      "outputPath": "C:\\Users\\gabri\\Documents\\ADS\\ED\\ED_Transporte\\ED_Transporte\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

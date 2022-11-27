@@ -84,6 +84,13 @@ namespace ED_Transporte
             boxConsole.Text = terminal.finalizarJornada().Replace("\n", Environment.NewLine);
         }
 
-       
+        private void btnVerificaViagens_Click(object sender, EventArgs e)
+        {
+            int placa;
+
+            placa = int.Parse(inptPlaca.Text);
+
+            boxConsole.Text = terminal.listaViagensVeiculos(placa).Replace("\n", Environment.NewLine);
+        }
     }
 }
