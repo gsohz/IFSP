@@ -66,6 +66,8 @@ namespace ED_Transporte
                 aux.Viagens.Add(viagem);
                 Veiculos.Dequeue();
                 Veiculos.Enqueue(aux);
+                aux.TempoEspera.Stop();
+                aux.TempoEspera.Start();
             }
 
             return true;
@@ -145,7 +147,7 @@ namespace ED_Transporte
                     qtdVisitantes += 1;
                 }
 
-                listaViagens += $"{viagem.Dt_hora_viagem} - Placa veículo: {viagem.Veiculo.Placa} - Qtd passageiros: {qtdVisitantes}";
+                listaViagens += $"{viagem.Dt_hora_viagem} - Placa veículo: {viagem.Veiculo.Placa} - Qtd passageiros: {qtdVisitantes}\n";
             }
 
             return listaViagens;

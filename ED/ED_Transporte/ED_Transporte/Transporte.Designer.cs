@@ -100,10 +100,10 @@ namespace ED_Transporte
             // boxFilaVeiculos
             // 
             this.boxFilaVeiculos.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.boxFilaVeiculos.Enabled = false;
             this.boxFilaVeiculos.Location = new System.Drawing.Point(208, 180);
             this.boxFilaVeiculos.Multiline = true;
             this.boxFilaVeiculos.Name = "boxFilaVeiculos";
+            this.boxFilaVeiculos.ReadOnly = true;
             this.boxFilaVeiculos.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.boxFilaVeiculos.Size = new System.Drawing.Size(273, 144);
             this.boxFilaVeiculos.TabIndex = 6;
@@ -165,10 +165,10 @@ namespace ED_Transporte
             // boxFilaVisitantes
             // 
             this.boxFilaVisitantes.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.boxFilaVisitantes.Enabled = false;
             this.boxFilaVisitantes.Location = new System.Drawing.Point(503, 180);
             this.boxFilaVisitantes.Multiline = true;
             this.boxFilaVisitantes.Name = "boxFilaVisitantes";
+            this.boxFilaVisitantes.ReadOnly = true;
             this.boxFilaVisitantes.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.boxFilaVisitantes.Size = new System.Drawing.Size(273, 144);
             this.boxFilaVisitantes.TabIndex = 13;
@@ -195,10 +195,10 @@ namespace ED_Transporte
             // boxConsole
             // 
             this.boxConsole.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.boxConsole.Enabled = false;
             this.boxConsole.Location = new System.Drawing.Point(108, 361);
             this.boxConsole.Multiline = true;
             this.boxConsole.Name = "boxConsole";
+            this.boxConsole.ReadOnly = true;
             this.boxConsole.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.boxConsole.Size = new System.Drawing.Size(522, 86);
             this.boxConsole.TabIndex = 15;
