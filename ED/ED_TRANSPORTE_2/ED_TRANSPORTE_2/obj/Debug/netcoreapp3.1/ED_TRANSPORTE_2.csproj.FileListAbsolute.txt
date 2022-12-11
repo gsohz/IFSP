@@ -1,0 +1,13 @@
+C:\Users\gabri\source\repos\ED_TRANSPORTE_2\ED_TRANSPORTE_2\bin\Debug\netcoreapp3.1\ED_TRANSPORTE_2.exe
+C:\Users\gabri\source\repos\ED_TRANSPORTE_2\ED_TRANSPORTE_2\bin\Debug\netcoreapp3.1\ED_TRANSPORTE_2.deps.json
+C:\Users\gabri\source\repos\ED_TRANSPORTE_2\ED_TRANSPORTE_2\bin\Debug\netcoreapp3.1\ED_TRANSPORTE_2.runtimeconfig.json
+C:\Users\gabri\source\repos\ED_TRANSPORTE_2\ED_TRANSPORTE_2\bin\Debug\netcoreapp3.1\ED_TRANSPORTE_2.runtimeconfig.dev.json
+C:\Users\gabri\source\repos\ED_TRANSPORTE_2\ED_TRANSPORTE_2\bin\Debug\netcoreapp3.1\ED_TRANSPORTE_2.dll
+C:\Users\gabri\source\repos\ED_TRANSPORTE_2\ED_TRANSPORTE_2\bin\Debug\netcoreapp3.1\ED_TRANSPORTE_2.pdb
+C:\Users\gabri\source\repos\ED_TRANSPORTE_2\ED_TRANSPORTE_2\obj\Debug\netcoreapp3.1\ED_TRANSPORTE_2.csprojAssemblyReference.cache
+C:\Users\gabri\source\repos\ED_TRANSPORTE_2\ED_TRANSPORTE_2\obj\Debug\netcoreapp3.1\ED_TRANSPORTE_2.AssemblyInfoInputs.cache
+C:\Users\gabri\source\repos\ED_TRANSPORTE_2\ED_TRANSPORTE_2\obj\Debug\netcoreapp3.1\ED_TRANSPORTE_2.AssemblyInfo.cs
+C:\Users\gabri\source\repos\ED_TRANSPORTE_2\ED_TRANSPORTE_2\obj\Debug\netcoreapp3.1\ED_TRANSPORTE_2.csproj.CoreCompileInputs.cache
+C:\Users\gabri\source\repos\ED_TRANSPORTE_2\ED_TRANSPORTE_2\obj\Debug\netcoreapp3.1\ED_TRANSPORTE_2.dll
+C:\Users\gabri\source\repos\ED_TRANSPORTE_2\ED_TRANSPORTE_2\obj\Debug\netcoreapp3.1\ED_TRANSPORTE_2.pdb
+C:\Users\gabri\source\repos\ED_TRANSPORTE_2\ED_TRANSPORTE_2\obj\Debug\netcoreapp3.1\ED_TRANSPORTE_2.genruntimeconfig.cache
