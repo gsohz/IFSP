@@ -1,0 +1,15 @@
+C:\Users\gabri\source\repos\ED_LOCACAO\ED_LOCACAO\bin\Debug\netcoreapp3.1\ED_LOCACAO.exe
+C:\Users\gabri\source\repos\ED_LOCACAO\ED_LOCACAO\bin\Debug\netcoreapp3.1\ED_LOCACAO.deps.json
+C:\Users\gabri\source\repos\ED_LOCACAO\ED_LOCACAO\bin\Debug\netcoreapp3.1\ED_LOCACAO.runtimeconfig.json
+C:\Users\gabri\source\repos\ED_LOCACAO\ED_LOCACAO\bin\Debug\netcoreapp3.1\ED_LOCACAO.runtimeconfig.dev.json
+C:\Users\gabri\source\repos\ED_LOCACAO\ED_LOCACAO\bin\Debug\netcoreapp3.1\ED_LOCACAO.dll
+C:\Users\gabri\source\repos\ED_LOCACAO\ED_LOCACAO\bin\Debug\netcoreapp3.1\ED_LOCACAO.pdb
+C:\Users\gabri\source\repos\ED_LOCACAO\ED_LOCACAO\obj\Debug\netcoreapp3.1\ED_LOCACAO.csprojAssemblyReference.cache
+C:\Users\gabri\source\repos\ED_LOCACAO\ED_LOCACAO\obj\Debug\netcoreapp3.1\ED_LOCACAO.Form1.resources
+C:\Users\gabri\source\repos\ED_LOCACAO\ED_LOCACAO\obj\Debug\netcoreapp3.1\ED_LOCACAO.csproj.GenerateResource.cache
+C:\Users\gabri\source\repos\ED_LOCACAO\ED_LOCACAO\obj\Debug\netcoreapp3.1\ED_LOCACAO.AssemblyInfoInputs.cache
+C:\Users\gabri\source\repos\ED_LOCACAO\ED_LOCACAO\obj\Debug\netcoreapp3.1\ED_LOCACAO.AssemblyInfo.cs
+C:\Users\gabri\source\repos\ED_LOCACAO\ED_LOCACAO\obj\Debug\netcoreapp3.1\ED_LOCACAO.csproj.CoreCompileInputs.cache
+C:\Users\gabri\source\repos\ED_LOCACAO\ED_LOCACAO\obj\Debug\netcoreapp3.1\ED_LOCACAO.dll
+C:\Users\gabri\source\repos\ED_LOCACAO\ED_LOCACAO\obj\Debug\netcoreapp3.1\ED_LOCACAO.pdb
+C:\Users\gabri\source\repos\ED_LOCACAO\ED_LOCACAO\obj\Debug\netcoreapp3.1\ED_LOCACAO.genruntimeconfig.cache
