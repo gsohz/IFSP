@@ -6,7 +6,7 @@ namespace ED_LOCACAO.Classes
 {
     class Locacao
     {
-        private int id = 0;
+        private int id;
         private DateTime dt_saida;
         private DateTime dt_retorno;
         private TipoEquipamento tipoNecessario;
@@ -26,9 +26,13 @@ namespace ED_LOCACAO.Classes
         {
             Id = -1;
         }
+        public Locacao(int id)
+        {
+            Id = id;
+        }        
         public Locacao(DateTime dt_saida, DateTime dt_retorno, TipoEquipamento tipoNecessario, int qtdeNecessaria)
         {
-            Id += 1;
+            Id = 0;
             Dt_saida = dt_saida;
             Dt_retorno = dt_retorno;
             TipoNecessario = tipoNecessario;

@@ -18,6 +18,14 @@ namespace ED_LOCACAO.Classes
         internal List<Equipamento> Equipamentos { get => equipamentos; set => equipamentos = value; }
         internal Queue<Equipamento> EquipamentosDisponiveis { get => equipamentosDisponiveis; set => equipamentosDisponiveis = value; }
 
+        public TipoEquipamento()
+        {
+            Id = -1;
+        }
+        public TipoEquipamento(int id)
+        {
+            Id = id;
+        }
         public TipoEquipamento(int id, double locacao, string desc)
         {
             Id = id;
@@ -36,6 +44,12 @@ namespace ED_LOCACAO.Classes
         public Stack<Equipamento> liberarEquipamentosDisponiveis(int qtde)
         {
             Stack<Equipamento> equipamentosDisponiveis = new Stack<Equipamento>();
+
+            if(EquipamentosDisponiveis.Count == 0 || EquipamentosDisponiveis.Count < qtde)
+            {
+                return equipamentosDisponiveis;
+            }
+
             List<Equipamento> aux = new List<Equipamento>();
             int k = 0;
 
@@ -46,11 +60,14 @@ namespace ED_LOCACAO.Classes
                     break;
                 }
 
-                equipamentosDisponiveis.Push(e);
-                e.EstaLocado = true;
-                aux.Add(e);
-                k++;
-                
+                if (!e.EstaLocado)
+                {
+                    equipamentosDisponiveis.Push(e);
+                    e.EstaLocado = true;
+                    aux.Add(e);
+                    k++;
+                }
+
             }
 
             for(int i = 0; i < qtde; i++)
@@ -64,14 +81,30 @@ namespace ED_LOCACAO.Classes
         public void devolverEquipamento(Stack<Equipamento> equipamentos)
         {
 
-            for(int i = 0; i < equipamentos.Count; i++)
+            for(int i = 0; i <= equipamentos.Count; i++)
             {
                 Equipamento aux = equipamentos.Pop();
                 aux.EstaLocado = false;
-                EquipamentosDisponiveis.Enqueue(aux);
+                if (!aux.EstaAvariado)
+                {
+                    EquipamentosDisponiveis.Enqueue(aux);
+                }
             }
         }
-        
+
+        public Equipamento pesquisaEquipamento(Equipamento equipamento)
+        {
+            Equipamento aux = new Equipamento();
+            foreach (Equipamento e in Equipamentos)
+            {
+                if (e.Equals(equipamento))
+                {
+                    return aux = e;
+                }
+            }
+
+            return aux;
+        }
 
         public override bool Equals(object obj)
         {

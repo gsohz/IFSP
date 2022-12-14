@@ -20,13 +20,21 @@ namespace ED_LOCACAO.Classes
         {
             Id = -1;
         }
-
+        public Equipamento(int id)
+        {
+            Id = id;
+        }
         public Equipamento(int id, string desc)
         {
             Id = id;
             EstaAvariado = false;
             EstaLocado = false;
             Desc = desc;
+        }
+
+        public override bool Equals(object obj)
+        {
+            return Id.Equals(((Equipamento)obj).Id);
         }
     }
 }
